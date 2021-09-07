@@ -208,7 +208,7 @@ func (this *Cli) PraviteChat() {
 }
 
 func (this *Cli) Run() {
-	for this.flag != 0 {
+	for this.flag != -1 {
 		for this.menu() != true {
 			//fmt.Println("======")
 		}
